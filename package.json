@@ -80,5 +80,7 @@
     "stats": "webpack --config configuration/webpack.prod.config.js --mode=production --json > dist/stats.json && webpack-bundle-analyzer dist/stats.json"
   },
   "target": "web",
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
 }

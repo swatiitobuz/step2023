@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    /* background-color: bisque; */
+    display: grid;
+     height: 800px;
+    width: 800px;
+    /* grid-auto-columns: 500px;
+    grid-auto-flow: row; */
+    /* grid-column-gap: 50px;
+    grid-row-gap: 10px; */
+    /* grid-gap: 10px 10px; */
+    /* grid-template-columns: 10px 20px 30px 25px;
+    grid-template-rows: 20px 20px 20px 20px; */
+    grid-template-rows:auto;
+    grid-template-columns: auto;
+    justify-content: center;
+    column-gap: 5px;
+    row-gap: 5px;
+    text-align: center;
+    /* justify-content: baseline;
+    align-items: center; */
+    justify-content: end;
+}
+.itema {
+    /* margin: 3px;
+    padding: 5px; */
+    /* grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3; */
+    grid-template-columns: 10px 20px 30px 25px;
+    grid-template-rows: 20px 20px 20px 20px;
+    background-color: brown;
+}
+.itemb {
+    /*grid-area: main;*/
+    /* margin: 3px;
+    padding: 5px; */
+    /* grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4; */
+
+    background-color: blueviolet;
+}
+.itemc {
+    /* grid-area: sidebar; */
+    /* margin: 3px;
+    padding: 5px; */
+    background-color: black;
+}
+.itemd {
+    /* grid-area: footer; */
+    /* margin: 3px;
+    padding: 5px; */
+    background-color: blue;
+}
+.iteme {
+    /* margin: 3px;
+    padding: 5px; */
+    background-color: palegoldenrod;
+}
+.itemf {
+    /* margin: 3px;
+    padding: 5px; */
+    background-color: fuchsia;
+}
+.itemg {
+    /* margin: 3px;
+    padding: 5px; */
+    background-color: red;
+}
+.itemh {
+    /* margin: 3px;
+    padding: 5px; */
+    background-color: indigo;
+}
+.itemi {
+    /* margin: 3px;
+    padding: 5px; */
+    background-color: rgb(127, 106, 193);
+}
+.itemj {
+    /* margin: 3px;
+    padding: 5px; */
+    background-color: rgb(60, 121, 72);
+}
+.itemk {
+    /* margin: 3px;
+    padding: 5px; */
+    background-color: rgb(222, 209, 29);
+}
+.iteml {
+    /* margin: 3px;
+    padding: 5px; */
+    background-color: rgb(92, 65, 65);
+}
+.itemm {
+    /* margin: 3px;
+    padding: 5px; */
+    background-color: rgb(118, 10, 10);
+}
+.itemn {
+    /* margin: 3px;
+    padding: 5px; */
+    background-color: rgb(12, 101, 45);
+}
+.itemo {
+    /* margin: 3px;
+    padding: 5px; */
+    background-color: rgb(202, 91, 26);
+}
+.itemp {
+    /* margin: 3px;
+    padding: 5px; */
+    background-color: rgb(29, 170, 210);
+}
